@@ -139,4 +139,11 @@ p{
     align-items: center;
     justify-content: center;
 }
-
+.offcanvas-body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: none;
+}
+.formularios{
+    display: flex;
+    align-items: column;
+}

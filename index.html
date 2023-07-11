@@ -9,20 +9,38 @@
     <title>Misterio a la orden</title>
 </head>
 <body>
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Contenido que colapsa</h5>
-      <span class="text-muted">Conmutable a través de navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand">Misterio a la orden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu de Inicio</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Conocenos.html">Conocenos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Casos-Resueltos.html">Casos Resueltos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Agradecimientos.html">Agradecimientos</a>
+            </li>           
   </nav>
-
+  <br>
+  <br>
+  <br>
   <h1 class="inicio-h1">Inicio</h1>
     <img src="cazafantasmas.jpg" alt="logo de los cazafantasmas" id="cazafantasmas">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore iusto quo eveniet impedit ab officia, obcaecati soluta voluptatum placeat vero numquam ratione quis, quasi repellendus distinctio aliquid repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sapiente placeat, ipsum vel officiis cupiditate corrupti, in debitis ut aut doloribus alias</p>
