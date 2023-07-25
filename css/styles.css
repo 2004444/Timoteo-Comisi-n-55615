@@ -35,7 +35,7 @@ p {
 }
 
 .daphne {
-  width: 200px;
+  width: 2500px;
   height: 200px;
   border-radius: 10px;
 }
@@ -547,9 +547,23 @@ h2 {
     background: rgb(50, 80, 204);
   }
 }
-@media screen and (width-max: 376px) {
+@media (max-width: 376px) {
   .fondo4 {
     background: rgb(137, 30, 236);
+  }
+}
+@media (max-width: 376px) {
+  .casas1-3 {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 376px) {
+  .casas4-6 {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
