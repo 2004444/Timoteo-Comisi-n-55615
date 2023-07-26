@@ -1,3 +1,133 @@
+.fred {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.daphne {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.velma {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.shaggy {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.scooby {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.casa-1 {
+  width: 250px;
+  height: 200px;
+}
+
+.casa-2 {
+  width: 250px;
+  height: 200px;
+}
+
+.casa-3 {
+  width: 250px;
+  height: 200px;
+}
+
+.casa-4 {
+  width: 250px;
+  height: 200px;
+}
+
+.casa-5 {
+  width: 250px;
+  height: 200px;
+}
+
+.casa-6 {
+  width: 250px;
+  height: 200px;
+}
+
+.reloj1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.candado2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.corona3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.scoobyneta {
+  width: 1300px;
+  height: 530px;
+  display: flex;
+  margin: 78px;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.fondo1 {
+  background-color: rgb(116, 193, 91);
+}
+
+.img-fluid {
+  align-items: center;
+  justify-content: center;
+  height: 530px;
+  display: flex;
+  margin: 78px;
+  width: 87%;
+}
+
+.fondo2 {
+  background-color: rgb(54, 173, 242);
+}
+
+.casas1-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.casas4-6 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fondo3 {
+  background: rgb(246, 111, 7);
+}
+
+.fondo4 {
+  background: rgb(141, 54, 241);
+}
+
+.fondo5 {
+  background: rgb(0, 0, 0);
+}
+
 .inicio-h1 {
   color: rgb(157, 0, 255);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -9,7 +139,7 @@ p {
 }
 
 .parrafo-fred {
-  color: rgb(0, 157, 255);
+  color: rgb(54, 173, 242);
 }
 
 .parrafo-daphne {
@@ -21,7 +151,331 @@ p {
 }
 
 .parrafo-shaggy {
-  color: rgba(68, 255, 0, 0.817);
+  color: rgb(116, 193, 91);
+}
+
+.parrafo-scooby {
+  color: peru;
+}
+
+p {
+  margin: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.proteccion {
+  text-align: center;
+}
+
+.header1 {
+  border-right: 1px solid #ffffff;
+}
+
+.descripcion1 {
+  background: #ffffff;
+}
+
+.header1, .descripcion1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.header2 {
+  border-right: 1px solid #ffffff;
+}
+
+.descripcion2 {
+  background: #ffffff;
+}
+
+.header2, .descripcion2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.header3 {
+  border-right: 1px solid #ffffff;
+}
+
+.descripcion3 {
+  background: #ffffff;
+}
+
+.header3, .descripcion3 {
+  padding: 20px;
+  text-align: center;
+}
+
+.header4 {
+  border-right: 1px solid #ffffff;
+}
+
+.descripcion4 {
+  background: #ffffff;
+}
+
+.header4, .descripcion4 {
+  padding: 20px;
+  text-align: center;
+}
+
+.header5 {
+  border-right: 1px solid #ffffff;
+}
+
+.descripcion5 {
+  background: #ffffff;
+}
+
+.header5, .descripcion5 {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(54, 173, 242);
+}
+
+.titulo23 {
+  color: rgb(240, 41, 41);
+}
+
+.contenedor {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(116, 193, 91);
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.reloj {
+  background-color: rgb(116, 193, 91);
+  display: block;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px;
+  width: 950px;
+  height: 500px;
+  text-align: center;
+}
+
+.candado {
+  background-color: rgb(116, 193, 91);
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-left: 30px;
+  box-shadow: 2px 2px 10px;
+  width: 950px;
+  height: 500px;
+}
+
+.corona {
+  background-color: rgb(116, 193, 91);
+  display: block;
+  margin-left: 30px;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px;
+  width: 950px;
+  height: 500px;
+}
+
+.nav {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offcanvas-body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(116, 193, 91);
+}
+
+.formularios {
+  display: flex;
+  align-items: column;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card-container1 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card-container2 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+}
+
+.card-container3 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+}
+
+.card-container4 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+}
+
+.card-container4 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(54, 173, 242);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+}
+
+.card-container5 {
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
+}
+
+.divsupremo {
+  background: rgb(54, 173, 242);
+  display: block;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(54, 173, 242);
+  font-size: larger;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 580px;
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px 2px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.inicio-h1 {
+  color: rgb(157, 0, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
+
+.parrafo-fred {
+  color: rgb(54, 173, 242);
+}
+
+.parrafo-daphne {
+  color: rgb(204, 0, 255);
+}
+
+.parrafo-velma {
+  color: rgb(255, 115, 0);
+}
+
+.parrafo-shaggy {
+  color: rgb(116, 193, 91);
 }
 
 .parrafo-scooby {
@@ -35,7 +489,7 @@ p {
 }
 
 .daphne {
-  width: 2500px;
+  width: 200px;
   height: 200px;
   border-radius: 10px;
 }
@@ -129,11 +583,11 @@ p {
 
 p {
   margin: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .reloj {
-  background-color: rgb(123, 212, 81);
+  background-color: rgb(116, 193, 91);
   display: block;
   align-items: center;
   border-radius: 30px;
@@ -144,7 +598,7 @@ p {
 }
 
 .candado {
-  background-color: rgb(123, 212, 81);
+  background-color: rgb(116, 193, 91);
   display: block;
   align-items: center;
   justify-content: center;
@@ -156,7 +610,7 @@ p {
 }
 
 .corona {
-  background-color: rgb(123, 212, 81);
+  background-color: rgb(116, 193, 91);
   display: block;
   margin-left: 30px;
   align-items: center;
@@ -174,7 +628,7 @@ p {
 }
 
 .offcanvas-body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgb(116, 193, 91);
 }
 
@@ -225,17 +679,17 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header1 {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ffffff;
 }
 
 .descripcion1 {
-  background: #fbfbfb;
+  background: #ffffff;
 }
 
 .header1, .descripcion1 {
@@ -258,17 +712,17 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header2 {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ffffff;
 }
 
 .descripcion2 {
-  background: #fbfbfb;
+  background: #ffffff;
 }
 
 .header2, .descripcion2 {
@@ -290,17 +744,17 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header3 {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ffffff;
 }
 
 .descripcion3 {
-  background: #fbfbfb;
+  background: #ffffff;
 }
 
 .header3, .descripcion3 {
@@ -322,17 +776,17 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header4 {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ffffff;
 }
 
 .descripcion4 {
-  background: #fbfbfb;
+  background: #ffffff;
 }
 
 .header4, .descripcion4 {
@@ -354,22 +808,9 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
-  text-align: center;
-}
-
-.header4 {
-  border-right: 1px solid #ddd;
-}
-
-.descripcion4 {
-  background: #fbfbfb;
-}
-
-.header4, .descripcion4 {
-  padding: 20px;
   text-align: center;
 }
 
@@ -387,49 +828,17 @@ p {
   display: flex;
   width: 600px;
   height: auto;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2px;
   box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header5 {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ffffff;
 }
 
 .descripcion5 {
-  background: #fbfbfb;
-}
-
-.header5, .descripcion5 {
-  padding: 20px;
-  text-align: center;
-}
-
-.container5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: rgb(54, 173, 242);
-  font-family: "Courier New", Courier, monospace;
-  padding: 0 20px;
-}
-
-.card-container5 {
-  display: flex;
-  width: 600px;
-  height: auto;
-  background: #fff;
-  border-radius: 2px;
-  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
-}
-
-.header5 {
-  border-right: 1px solid #ddd;
-}
-
-.descripcion5 {
-  background: #fbfbfb;
+  background: #ffffff;
 }
 
 .header5, .descripcion5 {
@@ -480,7 +889,7 @@ a {
   margin-top: 150px;
   margin-left: 580px;
   text-align: center;
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   padding: 40px;
   width: 20%;
   border-radius: 20px;
@@ -522,7 +931,7 @@ h2 {
 }
 @media (max-width: 500px) {
   .texto-inicio {
-    color: rgb(0, 225, 255);
+    color: rgb(54, 173, 242);
     text-align: center;
   }
 }
@@ -541,7 +950,7 @@ h2 {
     color: rgb(0, 157, 255);
   }
 }
-@media (max-width: 376) {
+@media (max-width: 376px) {
   .contenedor {
     display: block;
     background: rgb(50, 80, 204);

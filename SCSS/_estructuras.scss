@@ -1,0 +1,190 @@
+ .contenedor {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: $color-primario;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: $fuente-primaria;
+}
+ .reloj{
+    background-color: $color-primario;
+    display: block;
+    align-items: center;
+    border-radius: $bordes-3;
+    box-shadow: $sombra-2;
+    width: $anchura-4;
+    height: $altura-terciaria;
+    text-align: center;
+}
+ .candado{
+    background-color: $color-primario;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: $bordes-3;
+    margin-left: $margen-izquierdo;
+    box-shadow: $sombra-2;
+    width: $anchura-4;
+    height: $altura-terciaria;
+}
+ .corona{
+    background-color: $color-primario;
+    display: block;
+    margin-left: $margen-izquierdo;
+    align-items: center;
+    border-radius: $bordes-3;
+    box-shadow: $sombra-2;
+    width: $anchura-4;
+    height: $altura-terciaria;
+}
+ .nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .offcanvas-body{
+    font-family: $fuente-primaria;
+    background-color: $color-primario;
+}
+ .formularios{
+    display: flex;
+    align-items: column;
+}
+ .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+    text-align: center;
+    
+}
+ .card-container1{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: 2px;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+}
+ .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+    text-align: center;
+}
+ .card-container2{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: $bordes-4;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+}
+ .container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+}
+ .card-container3{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: $bordes-4;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+}
+ .container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+}
+ .card-container4{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: $bordes-4;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+}
+ .container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+}
+ .card-container4{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: $bordes-4;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+    text-align: center;
+}
+ .container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $altura-secundaria;
+    background: $color-secundario;
+    font-family: $fuente-secundaria;
+    padding: 0 $padding;
+}
+ .card-container5{
+    display: flex;
+    width: $anchura-terciaria;
+    height: auto;
+    background: $color-terciario;
+    border-radius: $bordes-4;
+    box-shadow: $sombra rgba(0, 0, 0, 2);
+}
+ .divsupremo{
+    background: $color-secundario;
+    display: block;
+    
+}
+ .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-secundario;
+    font-size: larger;
+}
+ .login{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 580px;
+    text-align: center;
+    background: $color-terciario;
+    padding: 40px;
+    width: 20%; 
+    border-radius: $bordes-2;
+    box-shadow: 2px 3px 3px 2px;
+}
+ .video{
+    display: flex;
+    justify-content: center;
+}

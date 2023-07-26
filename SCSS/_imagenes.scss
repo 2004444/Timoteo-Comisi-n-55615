@@ -1,0 +1,107 @@
+ .fred{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-1;
+}
+ .daphne{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-1;
+}
+ .velma{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-1;
+}
+ .shaggy{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-1;
+}
+ .scooby{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-1;
+}
+ .casa-1{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .casa-2{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .casa-3{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .casa-4{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .casa-5{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .casa-6{
+    width: $anchura-secundaria;
+    height: $altura-primaria;
+}
+ .reloj1{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-2;
+    margin: $margen-1;
+}
+ .candado2{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-2;
+    margin: $margen-1;
+}
+ .corona3{
+    width: $anchura-primaria;
+    height: $altura-primaria;
+    border-radius: $bordes-2;
+    margin: $margen-1;
+}
+ .scoobyneta{
+    width: 1300px;
+    height: $altura-4;
+    display:flex;
+    margin: $margen-2;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+ .fondo1{
+    background-color: $color-primario;
+}
+ .img-fluid{
+    align-items: center;
+    justify-content: center;
+    height: $altura-4;
+    display:flex;
+    margin: $margen-2;
+    width: 87%;
+}
+ .fondo2{
+    background-color: $color-secundario;
+}
+ .casas1-3{
+    display: flex;
+    justify-content: space-around;
+}
+ .casas4-6{
+    display: flex;
+    justify-content: space-around;
+}
+ .fondo3{
+    background: rgb(246, 111, 7);
+}
+ .fondo4{
+    background: rgb(141, 54, 241);
+}
+.fondo5{
+    background: rgb(0, 0, 0);
+}
