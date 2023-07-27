@@ -1,0 +1,32 @@
+@mixin flex-column{
+   display: flex;
+   align-items: column; 
+}
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.casa-1{
+    @include sizes(200px, 250px)
+}
+.casa-2{
+    @include sizes(200px, 250px)
+}
+.casa-3{
+    @include sizes(200px, 250px)
+}
+.casa-4{
+    @include sizes(200px, 250px)
+}
+.casa-5{
+    @include sizes(200px, 250px)
+}
+.casa-6{
+    @include sizes(200px, 250px)
+}
+
+.formularios{
+    @include flex-column;
+}

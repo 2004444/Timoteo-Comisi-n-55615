@@ -455,6 +455,41 @@ h2 {
   justify-content: center;
 }
 
+.casa-1 {
+  width: 200px;
+  height: 250px;
+}
+
+.casa-2 {
+  width: 200px;
+  height: 250px;
+}
+
+.casa-3 {
+  width: 200px;
+  height: 250px;
+}
+
+.casa-4 {
+  width: 200px;
+  height: 250px;
+}
+
+.casa-5 {
+  width: 200px;
+  height: 250px;
+}
+
+.casa-6 {
+  width: 200px;
+  height: 250px;
+}
+
+.formularios {
+  display: flex;
+  align-items: column;
+}
+
 .inicio-h1 {
   color: rgb(0, 0, 0);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -908,25 +943,27 @@ h2 {
   color: rgb(240, 41, 41);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 376px) {
   .fondo1 {
     background-color: rgb(50, 80, 204);
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 376px) {
   .texto-inicio {
     color: rgb(54, 173, 242);
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 376px) {
   .img-fluid {
-    width: 100%;
     height: 250px;
-    padding: 15px;
     font-size: larger;
     border-radius: 20%;
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 @media (max-width: 376px) {
@@ -936,7 +973,7 @@ h2 {
 }
 @media (max-width: 376px) {
   .contenedor {
-    display: block;
+    display: flex;
     background: rgb(50, 80, 204);
   }
 }
@@ -957,6 +994,23 @@ h2 {
     grid-template-columns: 1fr;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 376px) {
+  .formLogin {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1100px;
+    padding-left: 180px;
+    padding-bottom: 2px;
+  }
+}
+@media (max-width: 376px) {
+  .talktous {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
