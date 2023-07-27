@@ -1,6 +1,9 @@
  .tituloP{
     color: rgb(0, 0, 0);
     font-family: $fuente-primaria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  p{
     font-family: $fuente-primaria;

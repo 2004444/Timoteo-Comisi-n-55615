@@ -7,44 +7,54 @@
 
 @import "condicionales";
 
-.inicio-h1{
+ .inicio-h1{
     color: rgb(0, 0, 0);
     font-family: $fuente-primaria;
 }
-p{
+
+ p{
     font-family: $fuente-primaria;
     font-size: larger
 }
-.parrafo-fred{
+
+ .parrafo-fred{
     color: $color-secundario;
 }
-.parrafo-daphne{
+
+ .parrafo-daphne{
     color: rgb(204, 0, 255);
 }
-.parrafo-velma{
+
+ .parrafo-velma{
     color: rgb(255, 115, 0);
 }
-.parrafo-shaggy{
+
+ .parrafo-shaggy{
     color: $color-primario;
 }
+
 .parrafo-scooby{
     color: peru
 }
+
 .fred{
     width: $anchura-primaria;
     height: $altura-primaria;
     border-radius: $bordes-1;
 }
+
 .daphne{
     width: $anchura-primaria;
     height: $altura-primaria;
     border-radius: $bordes-1;
 }
+
 .velma{
     width: $anchura-primaria;
     height: $altura-primaria;
     border-radius: $bordes-1;
 }
+
 .shaggy{
     width: $anchura-primaria;
     height: $altura-primaria;
@@ -277,23 +287,7 @@ p{
     padding: $padding;
     text-align: center;
 }
-.container4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: $altura-secundaria;
-    background: $color-secundario;
-    font-family: $fuente-secundaria;
-    padding: 0 $padding;
-}
-.card-container4{
-    display: flex;
-    width: $anchura-terciaria;
-    height: auto;
-    background: $color-terciario;
-    border-radius: $bordes-4;
-    box-shadow: $sombra rgba(0, 0, 0, 2);
-}
+
 .header4{
    border-right: 1px solid $color-terciario; 
 }

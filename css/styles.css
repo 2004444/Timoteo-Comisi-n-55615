@@ -131,6 +131,9 @@
 .tituloP {
   color: rgb(0, 0, 0);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -760,25 +763,6 @@ p {
 .header3, .descripcion3 {
   padding: 20px;
   text-align: center;
-}
-
-.container4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background: rgb(54, 173, 242);
-  font-family: "Courier New", Courier, monospace;
-  padding: 0 20px;
-}
-
-.card-container4 {
-  display: flex;
-  width: 600px;
-  height: auto;
-  background: #ffffff;
-  border-radius: 2px;
-  box-shadow: 1px 1px 4px 2px rgb(0, 0, 0);
 }
 
 .header4 {
