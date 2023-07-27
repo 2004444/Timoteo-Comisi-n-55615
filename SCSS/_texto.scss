@@ -1,0 +1,88 @@
+ .tituloP{
+    color: rgb(0, 0, 0);
+    font-family: $fuente-primaria;
+}
+ p{
+    font-family: $fuente-primaria;
+    font-size: larger
+}
+ .parrafo-fred{
+    color: $color-secundario;
+}
+ .parrafo-daphne{
+    color: rgb(204, 0, 255);
+}
+ .parrafo-velma{
+    color: rgb(255, 115, 0);
+}
+ .parrafo-shaggy{
+    color: $color-primario;
+}
+ .parrafo-scooby{
+    color: peru
+}
+ p{
+    margin: 25px;
+    font-family: $fuente-primaria;
+    
+}
+ .proteccion{
+    text-align: center;
+}
+ .header1{
+    border-right: 1px solid $color-terciario; 
+}
+ .descripcion1{
+     background: $color-terciario;
+}
+ .header1, .descripcion1{
+     padding: $padding;
+     text-align: center;
+}
+ .header2{
+    border-right: 1px solid $color-terciario; 
+}
+ .descripcion2{
+     background: $color-terciario;
+}
+ .header2, .descripcion2{
+     padding: $padding;
+     text-align: center;
+}
+ .header3{
+    border-right: 1px solid $color-terciario; 
+}
+ .descripcion3{
+     background: $color-terciario;
+}
+ .header3, .descripcion3{
+     padding: $padding;
+     text-align: center;
+}
+ .header4{
+    border-right: 1px solid $color-terciario; 
+}
+ .descripcion4{
+     background: $color-terciario;
+}
+ .header4, .descripcion4{
+     padding: $padding;
+     text-align: center;
+}
+ .header5{
+    border-right: 1px solid $color-terciario; 
+}
+ .descripcion5{
+     background: $color-terciario;
+}
+ .header5, .descripcion5{
+     padding: $padding;
+     text-align: center;
+}
+ h2{                                       
+    text-align: center;
+    color: $color-secundario;
+} 
+ .titulo23{
+    color: rgb(240, 41, 41);
+}
