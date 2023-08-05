@@ -500,26 +500,6 @@ p {
   font-size: larger;
 }
 
-.parrafo-fred {
-  color: rgb(54, 173, 242);
-}
-
-.parrafo-daphne {
-  color: rgb(204, 0, 255);
-}
-
-.parrafo-velma {
-  color: rgb(255, 115, 0);
-}
-
-.parrafo-shaggy {
-  color: rgb(116, 193, 91);
-}
-
-.parrafo-scooby {
-  color: peru;
-}
-
 .Foto-cara {
   width: 200px;
   height: 200px;
@@ -530,6 +510,14 @@ p {
   width: 250px;
   height: 200px;
   display: flex;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 630px;
 }
 
 .reloj1 {
@@ -537,6 +525,7 @@ p {
   height: 200px;
   border-radius: 20px;
   margin: 30px;
+  margin-right: 30px;
 }
 
 .candado2 {
@@ -627,21 +616,11 @@ p {
   align-items: column;
 }
 
-.scoobyneta {
-  width: 1300px;
-  height: 530px;
-  display: flex;
-  margin: 78px;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-}
-
 .fondo1 {
   background-color: rgb(116, 193, 91);
 }
 
-img {
+.cazafantasmas {
   align-items: center;
   justify-content: center;
   height: 530px;
@@ -682,7 +661,8 @@ img {
   background: #ffffff;
 }
 
-.header1, .descripcion1 {
+.header1,
+.descripcion1 {
   padding: 20px;
   text-align: center;
 }
@@ -715,7 +695,8 @@ img {
   background: #ffffff;
 }
 
-.header2, .descripcion2 {
+.header2,
+.descripcion2 {
   padding: 20px;
   text-align: center;
 }
@@ -747,7 +728,8 @@ img {
   background: #ffffff;
 }
 
-.header3, .descripcion3 {
+.header3,
+.descripcion3 {
   padding: 20px;
   text-align: center;
 }
@@ -760,7 +742,8 @@ img {
   background: #ffffff;
 }
 
-.header4, .descripcion4 {
+.header4,
+.descripcion4 {
   padding: 20px;
   text-align: center;
 }
@@ -810,9 +793,11 @@ img {
 
 .descripcion5 {
   background: #ffffff;
+  width: 200px;
 }
 
-.header5, .descripcion5 {
+.header5,
+.descripcion5 {
   padding: 20px;
   text-align: center;
 }
@@ -903,6 +888,11 @@ h2 {
 .titulo4 {
   padding-top: 70px;
   padding-bottom: 25px;
+}
+
+.scooby {
+  display: flex;
+  padding-right: 100px;
 }
 
 @media (max-width: 376px) {
