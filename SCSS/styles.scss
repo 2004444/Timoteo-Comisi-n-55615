@@ -8,11 +8,11 @@
 @import "mixin";
  
 
- .inicio-h1{
+ .tituloP{
     color: rgb(0, 0, 0);
     font-family: $fuente-primaria;
+    padding-top: 120px;
 }
-
  p{
     font-family: $fuente-primaria;
     font-size: larger
@@ -38,57 +38,15 @@
     color: peru
 }
 
-.fred{
+.Foto-cara{
     width: $anchura-primaria;
     height: $altura-primaria;
     border-radius: $bordes-1;
 }
-
-.daphne{
-    width: $anchura-primaria;
-    height: $altura-primaria;
-    border-radius: $bordes-1;
-}
-
-.velma{
-    width: $anchura-primaria;
-    height: $altura-primaria;
-    border-radius: $bordes-1;
-}
-
-.shaggy{
-    width: $anchura-primaria;
-    height: $altura-primaria;
-    border-radius: $bordes-1;
-}
-.scooby{
-    width: $anchura-primaria;
-    height: $altura-primaria;
-    border-radius: $bordes-1;
-}
-.casa-1{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
-}
-.casa-2{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
-}
-.casa-3{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
-}
-.casa-4{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
-}
-.casa-5{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
-}
-.casa-6{
-    width: $anchura-secundaria;
-    height: $altura-primaria;
+.card-img-top{
+    width: 250px;
+    height: 200px;
+    display: flex;
 }
 .reloj1{
     width: $anchura-primaria;
@@ -146,7 +104,7 @@
 }
 .candado{
     background-color: $color-primario;
-    display: block;
+    display: display;
     align-items: center;
     justify-content: center;
     border-radius: $bordes-3;
@@ -191,7 +149,7 @@
 .fondo1{
     background-color: $color-primario;
 }
-.img-fluid{
+img{
     align-items: center;
     justify-content: center;
     height: $altura-4;
@@ -355,6 +313,7 @@
     align-items: center;
     background-color: $color-secundario;
     font-size: larger;
+    margin-top: 80px;
 }
 a {
     color: rgb(0, 0, 0);
@@ -367,6 +326,8 @@ a {
 .casas1-3{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 25px;
+    margin-top: 100px;
 }
 .casas4-6{
     display: flex;
@@ -378,7 +339,7 @@ a {
 .login{
     display:flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 220px;
     margin-left: 580px;
     text-align: center;
     background: $color-terciario;
@@ -408,6 +369,12 @@ h2{
 } 
 .titulo23{
     color: rgb(240, 41, 41);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.titulo4{
+    padding-top: 70px;
+    padding-bottom: 25px;
 }
 @media (max-width:376px){
     .fondo1{
@@ -415,7 +382,7 @@ h2{
     }
 }
 @media (max-width:376px){
-    .texto-inicio{
+    p{
         color: $color-secundario;
         text-align: center;
         display: flex;
@@ -423,14 +390,15 @@ h2{
     }
 }
 @media (max-width:376px){
-    .img-fluid{
+    img{
         height: $anchura-secundaria;
         font-size: larger;
         border-radius: 20%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        
+        margin: 0;
+        width: 100%;
     }
 }
 @media (max-width:376px){
@@ -466,12 +434,11 @@ h2{
   }
 @media (max-width:376px){
     .formLogin{
-        display: block;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-right: 1100px;
         padding-left: 180px;
-        padding-bottom: 2px;
     }
 }
 @media (max-width:376px){
@@ -479,5 +446,18 @@ h2{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+@media (max-width:376px){
+    h1{
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width:376px){
+    .reloj1{
+        display: flex;
+        align-items: column;
+        justify-content: space-around;
     }
 }

@@ -232,7 +232,6 @@ p {
 
 .header5, .descripcion5 {
   padding: 20px;
-  text-align: center;
 }
 
 h2 {
@@ -490,9 +489,10 @@ h2 {
   align-items: column;
 }
 
-.inicio-h1 {
+.tituloP {
   color: rgb(0, 0, 0);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 120px;
 }
 
 p {
@@ -520,64 +520,16 @@ p {
   color: peru;
 }
 
-.fred {
+.Foto-cara {
   width: 200px;
   height: 200px;
   border-radius: 10px;
 }
 
-.daphne {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.velma {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.shaggy {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.scooby {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.casa-1 {
+.card-img-top {
   width: 250px;
   height: 200px;
-}
-
-.casa-2 {
-  width: 250px;
-  height: 200px;
-}
-
-.casa-3 {
-  width: 250px;
-  height: 200px;
-}
-
-.casa-4 {
-  width: 250px;
-  height: 200px;
-}
-
-.casa-5 {
-  width: 250px;
-  height: 200px;
-}
-
-.casa-6 {
-  width: 250px;
-  height: 200px;
+  display: flex;
 }
 
 .reloj1 {
@@ -637,7 +589,7 @@ p {
 
 .candado {
   background-color: rgb(116, 193, 91);
-  display: block;
+  display: display;
   align-items: center;
   justify-content: center;
   border-radius: 30px;
@@ -689,7 +641,7 @@ p {
   background-color: rgb(116, 193, 91);
 }
 
-.img-fluid {
+img {
   align-items: center;
   justify-content: center;
   height: 530px;
@@ -876,6 +828,7 @@ p {
   align-items: center;
   background-color: rgb(54, 173, 242);
   font-size: larger;
+  margin-top: 80px;
 }
 
 a {
@@ -891,6 +844,8 @@ a {
 .casas1-3 {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 25px;
+  margin-top: 100px;
 }
 
 .casas4-6 {
@@ -905,7 +860,7 @@ a {
 .login {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 220px;
   margin-left: 580px;
   text-align: center;
   background: #ffffff;
@@ -941,6 +896,13 @@ h2 {
 
 .titulo23 {
   color: rgb(240, 41, 41);
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.titulo4 {
+  padding-top: 70px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 376px) {
@@ -949,7 +911,7 @@ h2 {
   }
 }
 @media (max-width: 376px) {
-  .texto-inicio {
+  p {
     color: rgb(54, 173, 242);
     text-align: center;
     display: flex;
@@ -957,13 +919,15 @@ h2 {
   }
 }
 @media (max-width: 376px) {
-  .img-fluid {
+  img {
     height: 250px;
     font-size: larger;
     border-radius: 20%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0;
+    width: 100%;
   }
 }
 @media (max-width: 376px) {
@@ -998,12 +962,11 @@ h2 {
 }
 @media (max-width: 376px) {
   .formLogin {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 1100px;
     padding-left: 180px;
-    padding-bottom: 2px;
   }
 }
 @media (max-width: 376px) {
@@ -1011,6 +974,19 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media (max-width: 376px) {
+  h1 {
+    display: flex;
+    text-align: center;
+  }
+}
+@media (max-width: 376px) {
+  .reloj1 {
+    display: flex;
+    align-items: column;
+    justify-content: space-around;
   }
 }
 
