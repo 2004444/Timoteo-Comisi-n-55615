@@ -1,10 +1,18 @@
  .tituloP{
     color: rgb(0, 0, 0);
     font-family: $fuente-primaria;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
  p{
     font-family: $fuente-primaria;
     font-size: larger
@@ -88,4 +96,16 @@
 } 
  .titulo23{
     color: rgb(240, 41, 41);
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.titulo4 {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.h2inicio {
+    text-align: center;
+    color: green;
 }

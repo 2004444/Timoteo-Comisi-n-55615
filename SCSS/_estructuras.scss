@@ -125,24 +125,7 @@
     border-radius: $bordes-4;
     box-shadow: $sombra rgba(0, 0, 0, 2);
 }
- .container4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: $altura-secundaria;
-    background: $color-secundario;
-    font-family: $fuente-secundaria;
-    padding: 0 $padding;
-}
- .card-container4{
-    display: flex;
-    width: $anchura-terciaria;
-    height: auto;
-    background: $color-terciario;
-    border-radius: $bordes-4;
-    box-shadow: $sombra rgba(0, 0, 0, 2);
-    text-align: center;
-}
+
  .container5{
     display: flex;
     align-items: center;
@@ -171,6 +154,7 @@
     align-items: center;
     background-color: $color-secundario;
     font-size: larger;
+    margin-top: 80px;
 }
  .login{
     display:flex;
