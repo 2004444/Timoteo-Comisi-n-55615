@@ -29,7 +29,6 @@
 
 @media (max-width:376px) {
     p {
-        color: $color-secundario;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -143,14 +142,8 @@
 
 @media (max-width:376px) {
     .login {
-        background-color: rgb(129, 32, 239) ;
+        background-color: rgb(172, 99, 172) ;
         box-shadow: none;
-    }
-}
-
-@media (max-width:376px) {
-    .fondo4 {
-        background-color: rgb(129, 32, 239);
     }
 }
 
@@ -181,6 +174,24 @@
 @media (max-width:376px) {
     .h2inicio {
         color: rgb(43, 200, 244);
+    }
+}
+
+@media (max-width:376px) {
+    .fondo3 {
+        background-color: rgb(238, 218, 107);
+    }
+}
+
+@media (max-width:376px) {
+    .fondo5 {
+        background-color: rgb(232, 113, 135);
+    }
+}
+
+@media (max-width:376px) {
+    .fondo4 {
+        background-color: rgb(172, 99, 172);
     }
 }
 
@@ -238,6 +249,28 @@
 
 @media (min-width:376px) and (max-width:769px) {
     .fondo5 {
-        background-color: $color-4;
+        background-color: rgb(213, 130, 130);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .fondo4 {
+        background-color: rgb(169, 41, 192);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .formLogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 550px;
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .login {
+        background-color: rgb(169, 41, 192);
+        box-shadow: none;
     }
 }

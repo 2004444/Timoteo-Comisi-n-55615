@@ -80,7 +80,7 @@
 }
 
 .fondo5 {
-  background: rgb(0, 0, 0);
+  background: rgb(215, 178, 178);
 }
 
 .scooby {
@@ -453,7 +453,6 @@ h2 {
 }
 @media (max-width: 376px) {
   p {
-    color: rgb(54, 173, 242);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -553,13 +552,8 @@ h2 {
 }
 @media (max-width: 376px) {
   .login {
-    background-color: rgb(129, 32, 239);
+    background-color: rgb(172, 99, 172);
     box-shadow: none;
-  }
-}
-@media (max-width: 376px) {
-  .fondo4 {
-    background-color: rgb(129, 32, 239);
   }
 }
 @media (max-width: 376px) {
@@ -586,6 +580,21 @@ h2 {
 @media (max-width: 376px) {
   .h2inicio {
     color: rgb(43, 200, 244);
+  }
+}
+@media (max-width: 376px) {
+  .fondo3 {
+    background-color: rgb(238, 218, 107);
+  }
+}
+@media (max-width: 376px) {
+  .fondo5 {
+    background-color: rgb(232, 113, 135);
+  }
+}
+@media (max-width: 376px) {
+  .fondo4 {
+    background-color: rgb(172, 99, 172);
   }
 }
 /*Tablet*/
@@ -632,7 +641,26 @@ h2 {
 }
 @media (min-width: 376px) and (max-width: 769px) {
   .fondo5 {
-    background-color: rgb(222, 184, 135);
+    background-color: rgb(213, 130, 130);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .fondo4 {
+    background-color: rgb(169, 41, 192);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .formLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .login {
+    background-color: rgb(169, 41, 192);
+    box-shadow: none;
   }
 }
 
