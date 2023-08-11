@@ -23,7 +23,7 @@
 
 @media (max-width:376px) {
     .fondo1 {
-        background-color: rgb(50, 80, 204);
+        background-color: rgb(71, 104, 225);
     }
 }
 
@@ -42,10 +42,7 @@
         font-size: larger;
         border-radius: 20%;
         display: flex;
-        justify-content: flex-end;
         align-items: center;
-        margin: 0;
-        width: 100%;
     }
 }
 
@@ -58,7 +55,41 @@
 @media (max-width:376px) {
     .contenedor {
         display: flex;
-        background: rgb(50, 80, 204);
+        background: rgb(71, 104, 225);
+        flex-direction: column;
+    }
+}
+
+@media (max-width:376px) {
+    .reloj{
+        width: $anchura-5;
+        margin-left: $margen-izquierdo-2;
+        margin-right: $margen-derecho;
+        padding: $padding-2;
+        padding-left: $padding-izquierdo;
+        background-color: rgb(53, 146, 245);
+    }
+}
+
+@media (max-width:376px) {
+    .corona{
+        width: $anchura-5;
+        margin-left: $margen-izquierdo-2;
+        margin-right: $margen-derecho;
+        padding: $padding-2;
+        padding-left: $padding-izquierdo;
+        background-color: rgb(53, 146, 245);
+    }
+}
+
+@media (max-width:376px) {
+    .candado{
+        width: $anchura-5;
+        margin-left: $margen-izquierdo-2;
+        margin-right: $margen-derecho;
+        padding: $padding-2;
+        padding-left: $padding-izquierdo;
+        background-color: rgb(53, 146, 245);
     }
 }
 
@@ -111,9 +142,102 @@
 }
 
 @media (max-width:376px) {
+    .login {
+        background-color: rgb(129, 32, 239) ;
+        box-shadow: none;
+    }
+}
+
+@media (max-width:376px) {
+    .fondo4 {
+        background-color: rgb(129, 32, 239);
+    }
+}
+
+@media (max-width:376px) {
+    .texto-inicio {
+        color: black;
+    }
+}
+
+@media (max-width:376px) {
     .reloj1 {
         display: flex;
-        align-items: column;
-        justify-content: space-around;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width:376px) {
+    .cazafantasmas {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width:376px) {
+    .h2inicio {
+        color: rgb(43, 200, 244);
+    }
+}
+
+/*Tablet*/
+
+@media (min-width:376px) and (max-width:769px) {
+    .fondo1 {
+        background-color: burlywood;
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .contenedor {
+        background-color: burlywood;
+        display: flex;
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    p {
+        text-align: center;
+
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .reloj {
+        background-color: rgb(233, 181, 112);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .corona {
+        background-color: rgb(233, 181, 112);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .candado {
+        background-color: rgb(233, 181, 112);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .h2inicio {
+        color: rgb(237, 139, 10);
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .fondo3{
+        background-color: $color-4;
+    }
+}
+
+@media (min-width:376px) and (max-width:769px) {
+    .fondo5 {
+        background-color: $color-4;
     }
 }

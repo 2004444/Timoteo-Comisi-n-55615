@@ -104,33 +104,9 @@ a {
 }
 
 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: larger;
-}
-
-.parrafo-fred {
-  color: rgb(54, 173, 242);
-}
-
-.parrafo-daphne {
-  color: rgb(204, 0, 255);
-}
-
-.parrafo-velma {
-  color: rgb(255, 115, 0);
-}
-
-.parrafo-shaggy {
-  color: rgb(116, 193, 91);
-}
-
-.parrafo-scooby {
-  color: peru;
-}
-
-p {
   margin: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
 }
 
 .proteccion {
@@ -414,6 +390,15 @@ h2 {
   justify-content: center;
 }
 
+.lista-spotify {
+  width: 100%;
+  height: 352px;
+}
+
+.card {
+  width: 18rem;
+}
+
 .casa-1 {
   width: 200px;
   height: 250px;
@@ -463,7 +448,7 @@ h2 {
 
 @media (max-width: 376px) {
   .fondo1 {
-    background-color: rgb(50, 80, 204);
+    background-color: rgb(71, 104, 225);
   }
 }
 @media (max-width: 376px) {
@@ -480,10 +465,7 @@ h2 {
     font-size: larger;
     border-radius: 20%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin: 0;
-    width: 100%;
   }
 }
 @media (max-width: 376px) {
@@ -494,7 +476,38 @@ h2 {
 @media (max-width: 376px) {
   .contenedor {
     display: flex;
-    background: rgb(50, 80, 204);
+    background: rgb(71, 104, 225);
+    flex-direction: column;
+  }
+}
+@media (max-width: 376px) {
+  .reloj {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: rgb(53, 146, 245);
+  }
+}
+@media (max-width: 376px) {
+  .corona {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: rgb(53, 146, 245);
+  }
+}
+@media (max-width: 376px) {
+  .candado {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: rgb(53, 146, 245);
   }
 }
 @media (max-width: 376px) {
@@ -539,10 +552,87 @@ h2 {
   }
 }
 @media (max-width: 376px) {
+  .login {
+    background-color: rgb(129, 32, 239);
+    box-shadow: none;
+  }
+}
+@media (max-width: 376px) {
+  .fondo4 {
+    background-color: rgb(129, 32, 239);
+  }
+}
+@media (max-width: 376px) {
+  .texto-inicio {
+    color: black;
+  }
+}
+@media (max-width: 376px) {
   .reloj1 {
     display: flex;
-    align-items: column;
-    justify-content: space-around;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 376px) {
+  .cazafantasmas {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 376px) {
+  .h2inicio {
+    color: rgb(43, 200, 244);
+  }
+}
+/*Tablet*/
+@media (min-width: 376px) and (max-width: 769px) {
+  .fondo1 {
+    background-color: burlywood;
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .contenedor {
+    background-color: burlywood;
+    display: flex;
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  p {
+    text-align: center;
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .reloj {
+    background-color: rgb(233, 181, 112);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .corona {
+    background-color: rgb(233, 181, 112);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .candado {
+    background-color: rgb(233, 181, 112);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .h2inicio {
+    color: rgb(237, 139, 10);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .fondo3 {
+    background-color: rgb(222, 184, 135);
+  }
+}
+@media (min-width: 376px) and (max-width: 769px) {
+  .fondo5 {
+    background-color: rgb(222, 184, 135);
   }
 }
 

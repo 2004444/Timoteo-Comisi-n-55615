@@ -14,28 +14,9 @@ a {
 }
 
  p{
-    font-family: $fuente-primaria;
-    font-size: larger
-}
- .parrafo-fred{
-    color: $color-secundario;
-}
- .parrafo-daphne{
-    color: rgb(204, 0, 255);
-}
- .parrafo-velma{
-    color: rgb(255, 115, 0);
-}
- .parrafo-shaggy{
-    color: $color-primario;
-}
- .parrafo-scooby{
-    color: peru
-}
- p{
     margin: 25px;
     font-family: $fuente-primaria;
-    
+    color: black;
 }
  .proteccion{
     text-align: center;
